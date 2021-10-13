@@ -25,7 +25,7 @@ Y en el request del body se envia un json con el atributo obligatorio dna de tip
 De esta forma se obtiene una respuesta de tipo json, donde se indica si es o no mutante:
 ```json
 {
-    "response": false,
+    "response": true,
     "message": "El adn pertenece a un MUTANTE!!!"
 }
 ```
@@ -59,5 +59,7 @@ Para la creación de esta API REST se utilizaron servicios en la nube implementa
 
 ## Proyecto 📁
 El proyecto consta de dos funciones lambda construidas con Node Js 14.x hosteadas en AWS, las cuales pertenecen a cada uno de los endpoints implementados de validación de mutantes y consulta de estadísticas, cada función Lambda tiene asociado su punto de entrada en el archivo index.js donde se tiene toda la lógica  implementada.
+
+Tambien cuenta con una carpeta test donde se encuentran las pruebas unitarias realizadas.
 
 Implementado con ❤️    por [Rodrigo Fajardo Fonseca](https://github.com/elkinff) 😊
