@@ -116,21 +116,6 @@ function validateAdnEstructure(adns) {
 }
 
 exports.handler = async (event, context) => {
-    
-    /*
-    let adnss = ["EXGCGA","CCSCAS","TTARGT","ABAAGG","CCXSTA","TTTTCF"];
-    let adns = ["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCCCTGS"];
-    let adnsx = ["DDDDGA","CCSCAS","ATATGT","ABAAGG","cCCcBTA","TTTSCF"];
-    
-    //let responseIsMutant = isMutant(adns);
-    validateAdnEstructure(adns);
-    /*
-    try {
-        await insertAdn(responseIsMutant[2], responseIsMutant[0].response);
-    } catch (e) {
-        console.log(`erross ${e}`);
-    }
-    */
     let responseCode = 400;
     let responseIsMutant = false;
     let isMutantMessage;
