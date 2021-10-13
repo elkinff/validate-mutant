@@ -25,7 +25,7 @@ Y en el request del body se envia un json con el atributo obligatorio dna de tip
 De esta forma se obtiene una respuesta de tipo json, donde se indica si es o no mutante:
 ```json
 {
-    "response": false,
+    "response": true,
     "message": "El adn pertenece a un MUTANTE!!!"
 }
 ```
